@@ -101,8 +101,12 @@ class ProductController extends Controllers\Controller
      */
     public function destroy($id)
     {
-		$product = Products::findOrFail($id);
-        $product->delete();
+		try {
+		    $product = Products::findOrFail($id);
+            $product->delete();
+		} catch(\Throwable $e) {
+	        return back()->withErrors(['Ошибка удаления']);
+		}
 		return redirect('/admin/product');
     }
 }
