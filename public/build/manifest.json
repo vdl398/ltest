@@ -1,0 +1,60 @@
+{
+  "__commonjsHelpers-725317a4.js": {
+    "file": "assets/_commonjsHelpers-725317a4.js"
+  },
+  "_jquery-2823516c.js": {
+    "file": "assets/jquery-2823516c.js",
+    "imports": [
+      "__commonjsHelpers-725317a4.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-dc1e78dd.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-1dcafd1b.js",
+    "imports": [
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/basket.js": {
+    "file": "assets/basket-51da1f59.js",
+    "imports": [
+      "_jquery-2823516c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/basket.js"
+  },
+  "resources/js/order_edit.js": {
+    "file": "assets/order_edit-1195412d.js",
+    "imports": [
+      "_jquery-2823516c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/order_edit.js"
+  },
+  "resources/js/product_edit.js": {
+    "file": "assets/product_edit-9704e8b4.js",
+    "imports": [
+      "_jquery-2823516c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/product_edit.js"
+  },
+  "resources/js/product_ext.js": {
+    "file": "assets/product_ext-b270ad92.js",
+    "imports": [
+      "_jquery-2823516c.js",
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/product_ext.js"
+  }
+}

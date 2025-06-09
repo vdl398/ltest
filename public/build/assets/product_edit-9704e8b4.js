@@ -1,0 +1,1 @@
+import{$ as o}from"./jquery-2823516c.js";import"./_commonjsHelpers-725317a4.js";o("body").on("click","#save_btn",function(){o("#main_form").submit()});o("body").on("click","#delete_btn",function(){o("#delete_form").submit()});
